@@ -58,8 +58,8 @@ function wordCount(str) {
 wordCount(sentence);*/
 
 
-//Q13 XO
-function sentence() {
+//Q14 XO
+/*function sentence() {
     "use strict";
     var text = "xxxhudsifoo";
     return text;
@@ -90,4 +90,20 @@ function letterCount(str) {
         document.getElementById("output").innerHTML = result;
     }
 }
-letterCount (sentence);
+letterCount (sentence);*/
+
+//Q15 Palindrome
+/*function palidrome() {
+    var text = "racecar";
+    return text;
+}
+function checker(str) {
+    var text = str().toLowerCase("");
+    var backwards = text.split("").reverse().join("");
+    var container = false;
+    if (text === backwards) {
+        container = true;
+    }
+    document.getElementById("output").innerHTML = container;
+}
+checker(palidrome);*/
