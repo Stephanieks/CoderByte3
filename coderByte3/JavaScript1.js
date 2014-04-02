@@ -58,6 +58,36 @@ function wordCount(str) {
 wordCount(sentence);*/
 
 
+//Q13 XO
+function sentence() {
+    "use strict";
+    var text = "xxxhudsifoo";
+    return text;
+}
+function letterCount(str) {
+    "use strict";
+    var text = str().toLowerCase();
+    var xCount = 0;
+    var yCount = 0;
+    var result = false;
 
 
- 
+    for (var i = 0; i < text.length; i++) {
+        if (text[i] === "x") {
+            xCount += 1;
+        }
+
+    }
+    for (var j = 0; j < text.length; j++) {
+        if (text[j] === "o") {
+            yCount += 1;
+        }
+
+        if (xCount === yCount) {
+            result = true;
+
+        }
+        document.getElementById("output").innerHTML = result;
+    }
+}
+letterCount (sentence);
